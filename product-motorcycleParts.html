@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Products / Mortorcycle Parts</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="Products.css" />
+
+    <script type="text/javascript" src="MyScript.js"></script>
+    
+</head>
+<body>
+
+
+    <main>
+
+        <header>
+            <div class="storeName-1">
+                <p class="large rise">PHILIP JHAY</p>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">Product</a>
+                        <ul>
+                            <li><a href="product-motorcycleParts.html">Motorcycle Parts</a></li>
+                            <li><a href="product-accessories.html">Accesories</a></li>
+                            <li><a href="product-motorcycleOil.html">Motorcycle Oil</a></li>
+                            <li><a href="product-tires.html">Tires</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="services.html">Services</a>
+                
+                        <ul>
+                            <li><a href="services.html">Tire Services</a></li>
+                        </ul>
+                    </li>
+                
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                        <ul>
+                            <li><a href="aboutus.html">History</a></li>
+                            <li><a href="aboutus.html">About the Owner</a></li>
+                            <li><a href="aboutus.html">Mechanician</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="contactus.html">Contact Us</a>
+                        
+                    </li>
+                </ul>
+             </nav><!--end navigation -->
+
+             <div class="storeName-2">
+                <h2>MOTORCYCLE PARTS AND ACCESORIES </h2>
+            </div>
+           
+        </header>
+        
+        <!---->
+            <!--Category Name-->
+            <div class="wrapper">
+                <div class="bg"> Motorcycle Parts </div>
+                <div class="fg"> Motorcycle Parts </div>
+            </div>
+        
+            <!--Gallery Products 1-->
+
+            <div class="gallery-product">
+
+                <!-- show & unshow on click image-->
+                <div class="full-img" id="fullImgBox">
+                    <img id="fullImg" src="img/Products/Motorcycle Parts/Click Stock Seat.png" alt=" ">
+                    
+                    <h6 onclick="closeFullImg()">X</h6>
+                </div>
+
+                
+                <!--End show & unshow on click image-->
+        
+        
+        
+                
+                <div class="img-gallery">
+                    <div class="gallery-item">
+                        <img src="img/Products/Motorcycle Parts/Click Stock Seat.png" onclick="openFullImg(this.src)">
+                    
+                        <h3> Honda Click 125i/150i Seat </h3>
+                            <h6> &#8369; 
+                                <span>1,250</span> 
+                            </h6>
+                        <p class="description">
+
+                        </p>
+                        <p>Click the item to Zoom</p>
+                    </div>
+        
+                    <div class="gallery-item">
+                        <img src="img/Products/Motorcycle Parts/Nmax Stock Seat.png" onclick="openFullImg(this.src)">
+                    
+                        <h3> Nmax Stock Seat </h3>
+                            <h6> &#8369; 
+                                <span>4,150</span>
+                            </h6>
+                            <p class="description">
+
+                            </p>
+                            <p>Click the item to Zoom</p>
+                    </div>
+        
+                    <div class="gallery-item">
+                        <img src="img/Products/Motorcycle Parts/Yamaha front flairings version 1.png" onclick="openFullImg(this.src)">
+                    
+                        <h3> Yamaha front flairings version 1 </h3>
+                            <h6> &#8369; 
+                                <span>1,400</span>
+                            </h6>
+                            <p class="description">
+
+                            </p>
+                            <p>Click the item to Zoom</p>
+                    </div>
+        
+                    <div class="gallery-item">
+                        <img src="img/Products/Motorcycle Parts/Yamaha mio v2 stock headlight.png" onclick="openFullImg(this.src)">
+                    
+                        <h3> Oliver </h3>
+                            <h6> &#8369; 
+                                <span>Yamaha mio v2 stock headlight</span>
+                            </h6>
+                            <p class="description">
+
+                            </p>
+                            <p>Click the item to Zoom</p>
+                    </div>
+        
+                   
+                    
+                </div>
+            </div><!--End Gallery Product-->
+        
+            <!-- js for gallery product-->
+            <script>
+                 var fullImgBox = document.getElementById("fullImgBox");
+                var fullImg = document.getElementById("fullImg");
+        
+                function openFullImg(pic) {
+                    fullImgBox.style.display = "flex";
+                    fullImg.src = pic;
+                }
+        
+                function closeFullImg() {
+                    fullImgBox.style.display = "none";
+                }
+        
+            </script>
+            <!--End js for gallery product-->
+
+           <!--end grid--> 
+
+
+        
+
+    </main>
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>PHILIP JHAY MOTORCYCLE PARTS & ACCESSORIES<span><img src="img/forBanner/logo1.png" /></span></h3>
+
+            <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+            
+            <a href="#">About</a>
+
+            <a href="#">Contact</a>
+            
+            <a href="#">Developers</a>
+            
+            
+            </p>
+
+            <p class="footer-company-name">PHILIP JHAY MOTORCYCLE PARTS & ACCESSORIES © 2019</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+            <i class="fa fa-map-marker"></i>
+            <p>Location: <span>Camatchiles St. </span> Mabalacat City</p>
+            </div>
+
+            <div>
+            <i class="fa fa-phone"></i>
+            <p>Contact #: 09360638751</p>
+            </div>
+
+            <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto: najnaj.due@gmail.com">support@company.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+            <span>About the Store</span>
+                The store started and opened in feb 2019. It almost has a store of thai parts and accesories for motorcycles.
+                and they also do services like Sand Blast Paint and Ecuremap. 
+                And they repair mild to severe motorcycle damage. 
+                They also provide services in beautifying and shaping motorcycles
+            </p>
+
+            <div class="footer-icons">
+
+            <a href="https://www.facebook.com/philipjay.stamaria?mibextid=ZbWKwL"><i class="fa fa-facebook"><img class="fb" src="img/socila Logo/fb.png" /></i></a>
+            <a href="https://www.tiktok.com/@philipjaystamaria"><i class="fa fa-twitter"><img class="tiktok" src="img/socila Logo/tiktok2.png" /></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,183 @@
+/*  Product Category link pages*/
+
+.gallery-product * {
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow' ;
+    
+  }
+  
+  .gallery-product {
+    max-width: 75%;
+    margin: auto;
+  
+  }
+  
+  .img-gallery {
+    width: 80%;
+    margin: 20px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    
+  
+  }
+  
+  .img-gallery img {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .img-gallery img:hover {
+    transform:  scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(62,77,136,0.2);
+  
+  }
+  
+  .gallery-item {
+    padding: 5px;
+    border-radius: 8px;
+    background: 
+    #92999f;
+    color: #000001;
+  }
+  
+  .gallery-item img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .gallery-item h6 {
+    font-size: 15px;
+  }
+  
+  .gallery-item span, h6 {
+    color: #0707fd;
+  }
+  
+  .gallery-item span {
+    font-size: 18px;
+  }
+  
+  
+  /*  Product show & unshow  */
+  .gallery-product .full-img {
+    width: 90%;
+    height: 100vh;
+    background: rgba(41, 41, 41, 0.9);
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    left:5%;
+    right: 5%;
+    top: 10%;
+    z-index: 100;
+    margin: auto;
+    padding: 10px 30%;
+  }
+  
+  .full-img::after {
+    content: attr(alt);
+  }
+  
+  .full-img img {
+    width:80%;
+    max-width:420px;
+    margin: 10px 50px 10px 10px;
+    position: static;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+  }
+  
+  .full-img h6 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fa0808;
+    cursor: pointer;
+  }
+  
+  #productDetails {
+    background: rgba(218, 214, 214, 0.7);
+    padding: 5px;
+    color: #000001;
+    width: 40vh;
+  }
+  .product-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .full-img p {
+    margin-top: 15px;
+    text-align: justify;
+    text-overflow: hidden;
+  }
+  
+  .full-img span, h4 {
+    color: #0707fd;
+  }
+  
+  .full-img span {
+    font-size: 18px;
+  }
+  /* End product show & unshow  */
+
+
+
+  /* Services */
+  #storeHistory {
+    background-color: rgb(250, 250, 250);
+    border: 1px solid gray;
+  }
+  
+  #storeHistory h3{
+    color: gold;
+    text-decoration: underline;
+    font-size: 24px;
+  }
+
+  #storeHistory h4 {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+
+  /* End Services */
+
+
+/* About Us */
+
+#storeHistory h4 {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+
+
+#storeHistory h3{
+    color: gold;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+#storeHistory .story {
+ text-align: justify;
+}
+
+
+/* Contact Us */
+#storeHistory a {
+    color: black;
+    text-decoration: none;
+}
+
+#storeHistory a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
